@@ -289,7 +289,6 @@
 		<block name="cementMixer" prob="0.2"/>
 		<block name="cntCollapsedGeneratorbank" prob="0.25"/>
 		<block name="cntCollapsedBatterybank" prob="0.1"/>
-		<block name="spotlightPlayer" prob="0.2"/>
 		<block name="cntLootCrateWorkingStiffs"/>
 		<block name="airConditioner"/>
 		<block name="cntOven"/>
@@ -345,37 +344,37 @@
 		<item name="parts44Magnum_cylinder" quality="250,600"/> -->
 <lootqualitytemplates>
 	<lootqualitytemplate name="baseTemplate">
-		<qualitytemplate level="0,.16" default_quality="1,100">
+		<qualitytemplate level="0,0.16" default_quality="1,100">
 			<loot quality="301,600" prob="0.01"/>
 			<loot quality="201,300" prob="0.05"/>
 			<loot quality="101,200" prob="0.15"/>
 			<loot quality="1,100"   prob="1"/>
 		</qualitytemplate>
-		<qualitytemplate level=".16,.32" default_quality="101,200">
+		<qualitytemplate level="0.16,0.32" default_quality="101,200">
 			<loot quality="301,600" prob="0.014"/>
 			<loot quality="201,300" prob="0.06"/>
 			<loot quality="101,200" prob="0.17"/>
 			<loot quality="1,200"   prob="1"/>
 		</qualitytemplate>
-		<qualitytemplate level=".32,.48" default_quality="201,300">
+		<qualitytemplate level="0.32,0.48" default_quality="201,300">
 			<loot quality="301,600" prob="0.02"/>
 			<loot quality="201,300" prob="0.08"/>
 			<loot quality="101,200" prob="0.20"/>
 			<loot quality="1,300"   prob="1"/>
 		</qualitytemplate>
-		<qualitytemplate level=".48,.64" default_quality="301,400">
+		<qualitytemplate level="0.48,0.64" default_quality="301,400">
 			<loot quality="501,600" prob="0.03"/>
 			<loot quality="401,500" prob="0.10"/>
 			<loot quality="301,400" prob="0.25"/>
 			<loot quality="1,300"   prob="0.75"/>
 		</qualitytemplate>
-		<qualitytemplate level=".64,.80" default_quality="401,500">
+		<qualitytemplate level="0.64,0.80" default_quality="401,500">
 			<loot quality="501,600" prob="0.05"/>
 			<loot quality="401,500" prob="0.17"/>
 			<loot quality="301,400" prob="0.25"/>
 			<loot quality="1,300"   prob="0.5"/>
 		</qualitytemplate>
-		<qualitytemplate level=".80,1" default_quality="501,600">
+		<qualitytemplate level="0.80,1" default_quality="501,600">
 			<loot quality="501,600" prob="0.10"/>
 			<loot quality="401,500" prob="0.25"/>
 			<loot quality="301,400" prob="0.25"/>
@@ -386,37 +385,37 @@
 
 <lootqualitytemplates>
 	<lootqualitytemplate name="treasureTemplate">
-		<qualitytemplate level="0,.16" default_quality="1,100">
+		<qualitytemplate level="0,0.16" default_quality="1,100">
 			<loot quality="301,600" prob="0.015"/>
 			<loot quality="201,300" prob="0.075"/>
 			<loot quality="101,200" prob="0.22"/>
 			<loot quality="1,100"   prob="1"/>
 		</qualitytemplate>
-		<qualitytemplate level=".16,.32" default_quality="101,200">
+		<qualitytemplate level="0.16,0.32" default_quality="101,200">
 			<loot quality="301,600" prob="0.021"/>
 			<loot quality="201,300" prob="0.09"/>
 			<loot quality="101,200" prob="0.25"/>
 			<loot quality="1,200"   prob="1"/>
 		</qualitytemplate>
-		<qualitytemplate level=".32,.48" default_quality="201,300">
+		<qualitytemplate level="0.32,0.48" default_quality="201,300">
 			<loot quality="301,600" prob="0.03"/>
 			<loot quality="201,300" prob="0.12"/>
 			<loot quality="101,200" prob="0.30"/>
 			<loot quality="1,300"   prob="1"/>
 		</qualitytemplate>
-		<qualitytemplate level=".48,.64" default_quality="301,400">
+		<qualitytemplate level="0.48,0.64" default_quality="301,400">
 			<loot quality="501,600" prob="0.045"/>
 			<loot quality="401,500" prob="0.15"/>
 			<loot quality="301,400" prob="0.37"/>
 			<loot quality="1,300"   prob="0.75"/>
 		</qualitytemplate>
-		<qualitytemplate level=".64,.80" default_quality="401,500">
+		<qualitytemplate level="0.64,0.80" default_quality="401,500">
 			<loot quality="501,600" prob="0.075"/>
 			<loot quality="401,500" prob="0.25"/>
 			<loot quality="301,400" prob="0.37"/>
 			<loot quality="1,300"   prob="0.5"/>
 		</qualitytemplate>
-		<qualitytemplate level=".80,1" default_quality="501,600">
+		<qualitytemplate level="0.80,1" default_quality="501,600">
 			<loot quality="501,600" prob="0.15"/>
 			<loot quality="401,500" prob="0.37"/>
 			<loot quality="301,400" prob="0.37"/>
@@ -1022,8 +1021,8 @@
 	<item group="rottenFood" count="1"/>
 	<item group="books"/>
 	<item group="seeds"/>
-	<item group="questChallenge" count="1" prob="0.06"/> 	<!-- 0.06 = .23 % -->
-	<item group="treasureMaps" count="1" prob="0.06"/>
+	<item group="questChallenge" count="1" prob="0.084"/> 	<!-- 0.06 = .23 % -->
+	<item group="treasureMaps" count="1" prob="0.084"/>
 	<item name="femur" count="1,2" prob="0.05"/>
 	<item name="scrapPlastics" count="1,2" prob="0.3"/>
 </lootgroup>
@@ -1369,8 +1368,8 @@
 	<item name="bandage"/>
 	<item name="vitamins"/>
 	<item group="rareMedicine"/>
-	<item group="questChallenge" count="1" prob="0.04"/>
-	<item group="treasureMaps" count="1" prob="0.06"/>
+	<item group="questChallenge" count="1" prob="0.056"/>
+	<item group="treasureMaps" count="1" prob="0.084"/>
 </lootgroup>
 
 <lootgroup name="minibikeParts">
@@ -1391,7 +1390,6 @@
 	<item name="grainAlcohol" count="5,10"/>
 	<item name="vitamins" count="1,2"/>
 	<item name="animalFat" count="4,10"/>
-	<item name="bioFuel" count="10,20"/>
 	<item name="coal" count="10,20" prob="2"/>
 	<item name="potassiumNitratePowder" count="10,20" prob="2"/>
 	<item name="glue" count="1,5"/>
@@ -1500,8 +1498,8 @@
 	<item group="clothes" prob="1.9"/>
 	<item group="rottenFood" prob="0.62"/>
 	<item group="hazmatGear" count="1" prob="0.08"/>
-	<item group="questChallenge" count="1" prob="0.105"/>
-	<item group="treasureMaps" count="1" prob="0.105"/> <!-- total 2% for a quest thing -->
+	<item group="questChallenge" count="1" prob="0.147"/>
+	<item group="treasureMaps" count="1" prob="0.147"/> <!-- total 2% for a quest thing -->
 	<item name="facialPiercings" prob="0.08"/>
 </lootcontainer>
 
@@ -1829,8 +1827,8 @@
 	<item name="cloth" count="1,4" prob="0.3"/>
 	<item name="ductTape" count="1,3" prob="0.25"/>
 	<item group="books"/>
-	<item group="questChallenge" count="1" prob="0.05"/>
-	<item group="treasureMaps" count="1" prob="0.06"/>
+	<item group="questChallenge" count="1" prob="0.07"/>
+	<item group="treasureMaps" count="1" prob="0.084"/>
 	<item group="weaponsPistol+ammo" prob="0.03"/>
 </lootcontainer>
 
@@ -1931,8 +1929,8 @@
 	<item name="tshirtZUWhite" prob="2"/>
 	<item name="denimShortsPantsRed" prob="2"/>
 	<item name="runningShoes" prob="1.5"/>
-	<item group="questChallenge" count="1" prob="0.02"/>
-	<item group="treasureMaps" count="1" prob="0.02"/>
+	<item group="questChallenge" count="1" prob="0.028"/>
+	<item group="treasureMaps" count="1" prob="0.028"/>
 </lootcontainer>
 
 <!-- ZombieSkateboarder -->
@@ -1942,8 +1940,8 @@
 	<item name="blackDenimPants" prob="1"/>
 	<item name="runningShoes" prob="1"/>
 	<item name="mechanicalParts" count="1,3" prob="1.5"/>
-	<item group="questChallenge" count="1" prob="0.02"/>
-	<item group="treasureMaps" count="1" prob="0.02"/>
+	<item group="questChallenge" count="1" prob="0.028"/>
+	<item group="treasureMaps" count="1" prob="0.028"/>
 </lootcontainer>
 
 <!-- zombieOldTimer / zombieCowboy -->
@@ -2095,8 +2093,8 @@
 	<item group="suitAll" prob="2"/>
 	<item name="oldCash" count="14,60" prob="2"/>
 	<item name="paper" count="10,25" prob="0.66"/>
-	<item group="questChallenge" count="1" prob="0.02"/>
-	<item group="treasureMaps" count="1" prob="0.02"/>
+	<item group="questChallenge" count="1" prob="0.028"/>
+	<item group="treasureMaps" count="1" prob="0.028"/>
 </lootcontainer>
 
 <!-- cntGreenDrawerSecure, player crafted -->

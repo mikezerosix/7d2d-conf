@@ -46,7 +46,7 @@ Mesh files no longer used:
 		<property name="Range" value="2.2"/>
 		<property name="Sphere" value="0.2"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="6"/>
+		<property name="Stamina_usage" value="7"/> <!-- 10 is the break even point with maxed Athletics and Sexosaurus, standing still -->
 		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.glass" value="1"/> <!-- These are multipliers and correspond to "damage_category" in materials.xml. -->
 		<property name="ActionExp" value="2"/>
@@ -88,6 +88,7 @@ Mesh files no longer used:
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property class="Action0">
+		<property name="Stamina_usage" value="8"/>
 		<property name="Buff" value="criticalBlunt"/>
 		<property name="Buff_chance" value="0.2"/>
 		<property name="DamageBonus.head" value="4"/>
@@ -108,9 +109,10 @@ Mesh files no longer used:
 	<property name="RepairTools" value="forgedIron"/>
 	<property name="EconomicValue" value="192"/>
 	<property class="Action0"> <!-- AttackAction -->
+		<property name="Stamina_usage" value="6.5"/>
 		<property name="Delay" value="1.15"/>
 		<property name="Buff" value="bleeding,criticalBlunt"/>
-		<property name="Buff_chance" value="0.3,.3"/>
+		<property name="Buff_chance" value="0.3,0.3"/>
 		<property name="DamageBonus.head" value="5"/>
 	</property>
 	<property class="Attributes">
@@ -130,8 +132,9 @@ Mesh files no longer used:
 	<property name="RepairTools" value="forgedIron"/>
 	<property name="EconomicValue" value="300"/>
 	<property class="Action0"> <!-- AttackAction -->
+		<property name="Stamina_usage" value="8.5"/>
 		<property name="Buff" value="bleeding,criticalBlunt"/>
-		<property name="Buff_chance" value="0.5,.4"/>
+		<property name="Buff_chance" value="0.5,0.4"/>
 		<property name="DamageBonus.head" value="6"/>
 	</property>
 	<property class="Attributes">
@@ -163,7 +166,7 @@ Mesh files no longer used:
 		<property name="Sound_start" value="SlowSwoosh"/>
 		<property name="Stamina_usage" value="15"/>
 		<property name="Buff" value="criticalBlunt,stunned,sprainedLeg"/>
-		<property name="Buff_chance" value="0.5,.3,.3"/>
+		<property name="Buff_chance" value="0.5,0.3,0.3"/>
 		<property name="DamageBonus.wood" value="0.5"/>
 		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -289,7 +292,7 @@ Mesh files no longer used:
 		<property name="Range" value="2.2"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="4.73"/>
 		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.leaves" value="25"/>
@@ -326,7 +329,7 @@ Mesh files no longer used:
 		<property name="Range" value="2.2"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="5"/>
+		<property name="Stamina_usage" value="5.4"/>
 		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.leaves" value="25"/>
@@ -350,7 +353,7 @@ Mesh files no longer used:
 <item id="22" name="machete">
 	<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab"/>
 	<property name="Material" value="metal"/>
-	<property name="RepairTools" value="forgedIron"/>
+	<property name="RepairTools" value="forgedSteel"/>
 	<property name="HoldType" value="47"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="FuelValue" value="12"/>
@@ -364,7 +367,7 @@ Mesh files no longer used:
 		<property name="Range" value="2.2"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="7"/>
+		<property name="Stamina_usage" value="5.75"/>
 		<property name="DamageBonus.wood" value="3"/>
 		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -1059,7 +1062,7 @@ Mesh files no longer used:
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_stamina" value="5"/>
 		<property name="Gain_food" value="0"/>
@@ -1224,7 +1227,7 @@ Mesh files no longer used:
 	<property name="HoldType" value="24"/>
 	<property class="Action0">
 		<property name="Buff" value="bleeding,infection1,stunned"/>
-		<property name="Buff_chance" value="0.04,.25,0.5"/>
+		<property name="Buff_chance" value="0.04,0.25,0.5"/>
 	</property>
 </item>
 
@@ -1432,7 +1435,7 @@ Mesh files no longer used:
 		<property name="Block_range" value="3"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="3"/>
+		<property name="Stamina_usage" value="3.5"/>
 		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.wood" value="1.2"/>
@@ -1498,7 +1501,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.1"/>
 		<property name="Block_range" value="4"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="8.27"/>
 		<property name="DamageBonus.wood" value="1"/>
 		<property name="DamageBonus.head" value="2"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -1532,6 +1535,7 @@ Mesh files no longer used:
 	<property name="RepairTools" value="forgedSteel"/>
 	<property name="EconomicValue" value="912"/>
 	<property class="Action0">
+		<property name="Stamina_usage" value="9.19"/>
 		<property name="ToolCategory.Butcher" value="0.75" param1="10"/>
 		<property name="ToolCategory.harvestingTools" value="1.4" param1="1"/>
 	</property>
@@ -1559,7 +1563,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.1"/>
 		<property name="Block_range" value="4"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="7.52"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.head" value="2"/>
 		<property name="DamageBonus.wood" value="0.2"/>
@@ -1591,7 +1595,7 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="912"/>
 	<property class="Action0">
 		<property name="Delay" value="1.5"/>
-		<property name="Stamina_usage" value="5"/>
+		<property name="Stamina_usage" value="12.53"/>
 		<property name="DamageBonus.head" value="4"/>
 		<property name="ToolCategory.harvestingTools" value="1.4" param1="1"/>
 	</property>
@@ -1622,7 +1626,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.2"/>
 		<property name="Block_range" value="4"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="4.8"/>
 		<property name="DamageBonus.earth" value="2"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.head" value="4"/>
@@ -1665,7 +1669,7 @@ Mesh files no longer used:
 		<property name="Block_range" value="4"/>
 		<property name="Sphere" value="0.2"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="8.27"/>
 		<property name="DamageBonus.earth" value="2"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.head" value="4"/>
@@ -1682,7 +1686,7 @@ Mesh files no longer used:
 		<property name="BlockDamage" value="18,44"/> <!-- dirt blocks have up to 250 hp; skills + perks up to x4 the damage  -->
 		<property name="DegradationMax" value="200,1000"/>
 		<property name="DegradationRate" value="1,1"/>
-		<property name="DismembermentBaseChance" value="-0.1,.05"/>
+		<property name="DismembermentBaseChance" value="-0.1,0.05"/>
 	</property>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="ActionSkillGroup" value="Mining Tools"/>
@@ -1700,7 +1704,7 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="912"/>
 	<property class="Action0">
 		<property name="Delay" value="1.2"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="10.02"/>
 		<property name="DamageBonus.earth" value="3"/>
 		<property name="DamageBonus.organic" value="1"/>
 		<property name="ToolCategory.harvestingTools" value="1.4" param1="1"/>
@@ -1728,7 +1732,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.2"/>
 		<property name="Block_range" value="4"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="6.5"/>
 		<property name="DamageBonus.head" value="3"/>
 		<property name="DamageBonus.earth" value="2"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -1791,7 +1795,7 @@ Mesh files no longer used:
 		<property name="Block_range" value="4"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="8.27"/>
 		<property name="DamageBonus.head" value="3"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.stone" value="0.5"/>
@@ -1842,7 +1846,7 @@ Mesh files no longer used:
 		<property name="Block_range" value="4"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="6"/>
 		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.stone" value="1"/>
@@ -2121,7 +2125,7 @@ Mesh files no longer used:
 		<property name="Crosshair_min_distance" value="30"/> <!-- 30 -->
 		<property name="Crosshair_max_distance" value="30"/> <!-- 30 -->
 		<property name="Magazine_size" value="1"/>
-		<property name="Magazine_items" value="arrow, ironArrow"/>
+		<property name="Magazine_items" value="arrow,ironArrow,steelArrow"/>
 		<property name="Rays_spread" value="0.017"/>
 		<property name="Reload_time" value="0.9"/>
 		<property name="Bullet_icon" value="uzi"/>
@@ -2202,7 +2206,7 @@ Mesh files no longer used:
 	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 </item>
 
-<item id="147" name="compoundBow"> <!-- new icon xxx -->
+<item id="147" name="compoundBow">
 	<property name="Meshfile" value="Items/Weapons/Ranged/Bows/CompoundBow/CompoundBowPrefab"/>
 	<property name="Material" value="Mplastics"/>
 	<property name="RepairTools" value="repairKit"/>
@@ -2226,7 +2230,7 @@ Mesh files no longer used:
 		<property name="Crosshair_min_distance" value="30"/> <!-- 30 -->
 		<property name="Crosshair_max_distance" value="30"/> <!-- 30 -->
 		<property name="Magazine_size" value="1"/>
-		<property name="Magazine_items" value="steelArrow,flamingArrow"/>
+		<property name="Magazine_items" value="arrow,ironArrow,steelArrow,flamingArrow"/>
 		<property name="Rays_spread" value="0.011"/>
 		<property name="Reload_time" value="0.9"/>
 		<property name="Bullet_icon" value="uzi"/>
@@ -2396,9 +2400,9 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
 		<property name="Explosion.ParticleIndex" value="0"/> <!-- no expl. -->
-		<property name="Velocity" value="55"/>
+		<property name="Velocity" value="47"/>
 		<property name="FlyTime" value="0"/>
-		<property name="Gravity" value="-4"/>
+		<property name="Gravity" value="-4.7"/>
 		<property name="LifeTime" value="12"/>
 		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -2411,8 +2415,8 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="GetQualityFromWeapon" value="true"/>
 		<property name="EntityDamage" value="18,30"/>
-		<property name="BlockDamage" value="1,5"/>
-		<property name="ApplyBuff" value="0.25,.25" param1="arrowCriticalBleedout"/>
+		<property name="BlockDamage" value="1,3"/>
+		<property name="ApplyBuff" value="0.25,0.25" param1="arrowCriticalBleedout"/>
 	</property>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 </item>
@@ -2429,9 +2433,9 @@ Mesh files no longer used:
 	</property>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="22,45"/>
-		<property name="BlockDamage" value="3,8"/>
-		<property name="ApplyBuff" value="0.35,.35" param1="arrowCriticalBleedout"/>
+		<property name="EntityDamage" value="20,35"/>
+		<property name="BlockDamage" value="3,5"/>
+		<property name="ApplyBuff" value="0.35,0.35" param1="arrowCriticalBleedout"/>
 	</property>
 </item>
 
@@ -2445,9 +2449,9 @@ Mesh files no longer used:
 		<property name="LifeTime" value="12"/>
 	</property>
 	<property class="Attributes">
-		<property name="EntityDamage" value="22,55"/>
-		<property name="BlockDamage" value="6,11"/>
-		<property name="ApplyBuff" value="0.5,.5" param1="arrowCriticalBleedout"/>
+		<property name="EntityDamage" value="20,45"/>
+		<property name="BlockDamage" value="5,8"/>
+		<property name="ApplyBuff" value="0.5,0.5" param1="arrowCriticalBleedout"/>
 	</property>
 </item>
 
@@ -2467,7 +2471,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.wood" value="2"/>
 	</property>
 	<property class="Attributes">
-		<property name="EntityDamage" value="22,55"/>
+		<property name="EntityDamage" value="20,45"/>
 		<property name="BlockDamage" value="6,11"/>
 		<property name="ApplyBuff" value="1,1" param1="burning"/>
 	</property>
@@ -2534,7 +2538,7 @@ Mesh files no longer used:
 		<property name="GetQualityFromWeapon" value="true"/>
 		<property name="EntityDamage" value="25,50"/>
 		<property name="BlockDamage" value="6,10"/>
-		<property name="ApplyBuff" value="0.35,.35" param1="arrowCriticalBleedout"/>
+		<property name="ApplyBuff" value="0.35,0.35" param1="arrowCriticalBleedout"/>
 	</property>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
@@ -2555,7 +2559,7 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="25,55"/>
 		<property name="BlockDamage" value="6,11"/>
-		<property name="ApplyBuff" value="0.5,.5" param1="arrowCriticalBleedout"/>
+		<property name="ApplyBuff" value="0.5,0.5" param1="arrowCriticalBleedout"/>
 	</property>
 </item>
 
@@ -2798,7 +2802,7 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="EntityDamage" value="22,45"/>
 		<property name="BlockDamage" value="3,8"/>
-		<property name="ApplyBuff" value="0.3,.3" param1="arrowCriticalBleedout"/>
+		<property name="ApplyBuff" value="0.3,0.3" param1="arrowCriticalBleedout"/>
 	</property>
 </item>
 
@@ -3251,7 +3255,7 @@ Mesh files no longer used:
 		<property name="EntityDamage" value="21,35"/>
 		<property name="BlockDamage" value="1.5,3"/>
 		<!-- <property name="Accuracy" value="1, 0.01"/> -->
-		<property name="DismembermentBaseChance" value="0.01,.03"/>
+		<property name="DismembermentBaseChance" value="0.01,0.03"/>
 		<property name="DismembermentBonus" value="0,0"/>
 		<property name="DegradationMax" value="3000,6000"/>
 	</property>
@@ -3438,7 +3442,7 @@ Mesh files no longer used:
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
-<item id="280" name="partsCompoundBow_body"> <!-- new icon xxx -->
+<item id="280" name="partsCompoundBow_body">
 	<property name="Extends" value="partsMaster"/>
 	<property name="DescriptionKey" value="partsCompoundBowGroupDesc"/>
 	<property name="PartType" value="Stock"/>
@@ -3450,7 +3454,7 @@ Mesh files no longer used:
 	</property>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 </item>
-<item id="281" name="partsCompoundBow_grip"> <!-- new icon xxx -->
+<item id="281" name="partsCompoundBow_grip">
 	<property name="Extends" value="partsMaster"/>
 	<property name="DescriptionKey" value="partsCompoundBowGroupDesc"/>
 	<property name="PartType" value="Receiver"/>
@@ -3462,20 +3466,20 @@ Mesh files no longer used:
 	</property>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 </item>
-<item id="282" name="partsCompoundBow_parts"> <!-- new icon xxx -->
+<item id="282" name="partsCompoundBow_parts">
 	<property name="Extends" value="partsMaster"/>
 	<property name="DescriptionKey" value="partsCompoundBowGroupDesc"/>
 	<property name="PartType" value="Pump"/>
 	<property name="Material" value="Mplastics"/>
 	<property name="Weight" value="7"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="22,45"/>
-		<property name="BlockDamage" value="3,8"/>
+		<property name="EntityDamage" value="2,10"/>
+		<property name="BlockDamage" value="1,3"/>
 		<property name="DegradationMax" value="2000,5000"/>
 	</property>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 </item>
-<item id="283" name="partsCompoundBow_string"> <!-- new icon xxx -->
+<item id="283" name="partsCompoundBow_string">
 	<property name="Extends" value="partsMaster"/>
 	<property name="DescriptionKey" value="partsCompoundBowGroupDesc"/>
 	<property name="PartType" value="Barrel"/>
@@ -3661,7 +3665,7 @@ Mesh files no longer used:
 </item>
 
 <item id="364" name="animalHideBoots"> <!-- armorMasterHideArmor -->
-	<property name="Insulation" value="2"/>
+	<property name="Insulation" value="4"/>
 	<property name="Encumbrance" value="0.02"/>
 	<property name="Material" value="leather"/>
 	<property name="RepairTools" value="leather"/>
@@ -3673,11 +3677,11 @@ Mesh files no longer used:
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property class="Attributes">
-		<property name="ConcussiveProtection" value="0.07,0.35"/>
-		<property name="PunctureProtection" value="0.06,0.3"/>
-		<property name="FireProtection" value="0.04,0.2"/>
-		<property name="RadiationProtection" value="0.04,0.2"/>
-		<property name="ElectricalProtection" value="0.06,0.1"/>
+		<property name="ConcussiveProtection" value="0.08,0.35"/>
+		<property name="PunctureProtection" value="0.07,0.3"/>
+		<property name="FireProtection" value="0.05,0.2"/>
+		<property name="RadiationProtection" value="0.05,0.2"/>
+		<property name="ElectricalProtection" value="0.07,0.1"/>
 		<property name="DegradationMax" value="140,350"/>
 	</property>
 	<property class="UMA">
@@ -3702,10 +3706,9 @@ Mesh files no longer used:
 		<property name="Mesh" value="armor_hide_legs"/>
 		<property name="Overlay0" value="armor_hide_pants"/>
 		<property name="Layer" value="inner"/>
-		<property name="Layer" value="3"/>
 		<property name="Mask0" value="legs" param1="middle"/>
 		<property name="Mask1" value="legs" param1="outer"/>
-		<property name="UISlot" value="LegArmor"/>
+		<property name="UISlot" value="Pants"/>
 	</property>
 </item>
 
@@ -5883,6 +5886,7 @@ Mesh files no longer used:
 
 <item id="588" name="gothicPants"> <!-- leatherArmor -->
 	<property name="Extends" value="leatherPants"/>
+	<property name="Weight" value="50"/>
 	<property name="Insulation" value="2"/>
 	<property name="EquipSlot" value="Legs"/>
 	<property class="Attributes">
@@ -6056,7 +6060,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6066,7 +6070,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6088,7 +6092,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="10"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6097,7 +6101,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="10"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6121,7 +6125,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6131,7 +6135,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6188,7 +6192,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="-25"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6215,7 +6219,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="5"/>
 		<property name="Gain_food" value="5"/>
 		<property name="Gain_water" value="5"/>
@@ -6244,7 +6248,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6267,7 +6271,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="-30"/>
@@ -6277,7 +6281,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="-30"/>
@@ -6301,7 +6305,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6312,7 +6316,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6335,7 +6339,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6347,7 +6351,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
@@ -6373,7 +6377,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_painkillers"/>
 		<property name="Gain_food" value="-10"/>
 		<property name="Gain_water" value="-10"/>
@@ -6383,7 +6387,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_painkillers"/>
 		<property name="Gain_food" value="-10"/>
 		<property name="Gain_water" value="-10"/>
@@ -6405,7 +6409,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_painkillers"/>
 		<property name="Gain_food" value="1000"/>
 		<property name="Gain_water" value="1000"/>
@@ -6415,7 +6419,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_painkillers"/>
 		<property name="Gain_food" value="1000"/>
 		<property name="Gain_water" value="1000"/>
@@ -6439,7 +6443,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
 		<property name="Gain_stamina" value="0"/>
@@ -6459,7 +6463,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="5"/>
 		<property name="Buff" value="eatFood_4_Trigger"/>
@@ -6484,7 +6488,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="3"/>
 		<property name="Buff" value="eatFood_2_Trigger"/>
@@ -6505,7 +6509,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_water" value="15"/>
 		<property name="Gain_food" value="0"/>
@@ -6528,7 +6532,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="15"/>
 		<property name="Buff" value="eatFood_8_Trigger"/>
@@ -6556,7 +6560,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_food" value="5"/>
 		<property name="Buff" value="eatFood_3_Trigger"/>
 		<property name="Gain_water" value="-2"/>
@@ -6670,7 +6674,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="7"/>
 		<property name="Buff" value="eatFood_4_Trigger"/>
@@ -6717,7 +6721,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="1"/>
 		<property name="Buff" value="eatFood_1_Trigger"/>
@@ -6736,7 +6740,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="3"/>
 		<property name="Buff" value="eatFood_2_Trigger"/>
@@ -6760,7 +6764,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="2"/>
 		<property name="Buff" value="eatFood_1_Trigger"/>
@@ -6780,7 +6784,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="5"/>
 		<property name="Buff" value="eatFood_3_Trigger"/>
@@ -6804,7 +6808,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="10"/>
 		<property name="Buff" value="foodPoisoning,eatFood_3_Trigger"/>
@@ -6832,7 +6836,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="15"/>
 		<property name="Buff" value="foodPoisoning,eatFood_4_Trigger"/>
@@ -6852,7 +6856,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="10"/>
 		<property name="Buff" value="foodPoisoning,eatFood_3_Trigger"/>
@@ -6877,7 +6881,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="10"/>
 		<property name="Buff" value="foodPoisoning"/>
@@ -6901,7 +6905,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="10"/>
 		<property name="Buff" value="eatFood_9_Trigger"/>
@@ -6923,7 +6927,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="16"/>
 		<property name="Buff" value="eatFood_14_Trigger"/>
@@ -6945,12 +6949,12 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
-		<property name="Gain_food" value="16"/>
-		<property name="Buff" value="eatFood_14_Trigger"/>
+		<property name="Gain_food" value="12"/>
+		<property name="Buff" value="eatFood_9_Trigger"/>
 		<property name="Gain_water" value="0"/>
-		<property name="Gain_wellness" value="1.35"/>
+		<property name="Gain_wellness" value="0.675"/>
 		<property name="Sound_start" value="player_eating"/>
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 	</property>
@@ -6968,7 +6972,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="60"/>
 		<property name="Gain_water" value="0"/>
@@ -6994,7 +6998,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="2"/>
 		<property name="Buff" value="eatFood_1_Trigger"/>
@@ -7016,7 +7020,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="1"/>
 		<property name="Buff" value="eatFood_1_Trigger"/>
@@ -7037,7 +7041,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="3"/>
 		<property name="Buff" value="foodPoisoning,eatFood_1_Trigger"/>
@@ -7059,7 +7063,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="4"/>
 		<property name="Buff" value="eatFood_3_Trigger"/>
@@ -7081,7 +7085,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="10"/>
 		<property name="Buff" value="eatFood_9_Trigger"/>
@@ -7103,7 +7107,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="4"/>
 		<property name="Buff" value="eatFood_2_Trigger"/>
@@ -7124,7 +7128,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="16"/>
 		<property name="Buff" value="eatFood_15_Trigger"/>
@@ -7147,7 +7151,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="5"/>
 		<property name="Buff" value="eatFood_3_Trigger"/>
@@ -7168,7 +7172,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="21"/>
 		<property name="Gain_water" value="0"/>
@@ -7193,7 +7197,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_stamina" value="5"/>
 		<property name="Gain_food" value="0"/>
@@ -7220,7 +7224,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_stamina" value="20"/>
 		<property name="Gain_food" value="0"/>
@@ -7245,7 +7249,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_stamina" value="5"/>
 		<property name="Gain_food" value="0"/>
@@ -7272,7 +7276,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_stamina" value="20"/>
 		<property name="Gain_food" value="0"/>
@@ -7311,7 +7315,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="20"/>
 		<property name="Gain_stamina" value="40"/>
@@ -7333,7 +7337,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="20"/>
 		<property name="Gain_stamina" value="40"/>
@@ -7376,7 +7380,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="-10"/>
@@ -7399,7 +7403,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_stamina" value="0"/>
 		<property name="Gain_food" value="0"/>
@@ -7421,7 +7425,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1"/>
-		<property name="Use_time" value="0..."/>
+		<property name="Use_time" value="..."/>
 		<property name="Gain_health" value="0"/>
 		<property name="Gain_stamina" value="10"/>
 		<property name="Gain_food" value="0"/>
@@ -7502,7 +7506,7 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="919" name="compoundBowSchematic"> <!-- new icon xxx -->
+<item id="919" name="compoundBowSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="EconomicValue" value="500"/>
 	<property class="Action1">
@@ -8832,7 +8836,7 @@ Mesh files no longer used:
 	<property class="Attributes">
 		<property name="GetQualityFromWeapon" value="true"/>
 		<property name="EntityDamage" value="5,10"/>
-		<property name="BlockDamage" value="0.1,.2"/>
+		<property name="BlockDamage" value="0.1,0.2"/>
 	</property>
 	<property name="Group" value="Ammo/Weapons"/>
 </item>
@@ -8857,6 +8861,18 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="77"/>
 	<property name="Group" value="Resources,Ammo/Weapons"/>
 	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+</item>
+
+<item id="1358" name="macheteBlade">
+	<property name="CustomIcon" value="machete"/> <property name="CustomIconTint" value="a0a0ff"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="metal"/>
+	<property name="HoldType" value="45"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="EconomicValue" value="600"/>
+	<property name="Group" value="Resources,Ammo/Weapons"/>
+	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 </item>
 
 <item id="1359" name="repairKit">
@@ -8930,17 +8946,17 @@ Mesh files no longer used:
 	<property name="Group" value="Chemicals"/>
 </item>
 
-<item id="1365" name="bioFuel">
+<!--<item id="1365" name="bioFuel">
 	<property name="Meshfile" value="Items/Food/honeyPrefab"/>
 	<property name="Material" value="glass"/>
 	<property name="Weight" value="10"/>
 	<property name="HoldType" value="3"/>
 	<property name="FuelValue" value="20"/>
-	<property name="Stacknumber" value="250"/> <!-- STK resource -->
+	<property name="Stacknumber" value="250"/>
 	<property name="EconomicValue" value="30"/>
 	<property name="Group" value="Chemicals"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
-</item>
+</item>-->
 
 <item id="1367" name="canEmpty">
 	<property name="Meshfile" value="Items/Food/can_empty"/>
@@ -9364,17 +9380,17 @@ Mesh files no longer used:
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>
 </item>
 
-<item id="1446" name="calipers">
+<!--<item id="1446" name="calipers">
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="HoldType" value="45"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="1"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1"/>
 	<property name="Group" value="Resources"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>
-</item>
+</item>-->
 
 <item id="1447" name="toolAndDieSet">
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -9447,6 +9463,7 @@ Mesh files no longer used:
 	<property name="Extends" value="unit_iron"/>
 	<property name="CustomIcon" value="clayLump"/>
 	<property name="Material" value="clay"/>
+	<property name="CreativeMode" value="None" />
 </item>
 
 
