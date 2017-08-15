@@ -362,7 +362,7 @@
 		<entity name="zombieYoFeral" />
 		<entity name="zombieSpiderFeralRadiated" />
 		<entity name="zombieWightFeralRadiated" />
-		<!--entity name="zombieFatCopFeralRadiated" /-->
+		<entity name="zombieFatCopFeralRadiated" />
 	</entitygroup>
 
 	<entitygroup name="ZombieFeralRadiatedGroup">
