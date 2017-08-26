@@ -226,14 +226,13 @@
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
-<entity_class name="zombieWightFeralRadiated" extends="zombieWightFeral">
+<!--entity_class name="zombieWightFeralRadiated" extends="zombieWightFeral">
 	<property name="MaxHealth" value="1125"/>
 	<property name="ExperienceGain" value="5251"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/feral_rad"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
 	<property name="Buffs" value="zombieRadiatedBuff80"/>
-	<!-- Radiated zombie decap rules -->
 	<property name="HeadDismemberBaseChance" value="-.15"/>
 	<property name="HeadDismemberBonusChance" value="0.08"/>
 	<property name="HeadDismemberThreshold" value="0.38"/>
@@ -262,7 +261,7 @@
 	<property name="HeadExplosionDamageMultiplier" value=".85"/>
 	<property name="ChestExplosionDamageMultiplier" value=".85"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
-</entity_class>
+</entity_class-->
 <!--
 <entity_class name="zombieBehemoth" extends="zombieTemplateMale">
 	<property name="Prefab" value="NPC4m"/>
@@ -800,7 +799,7 @@
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
-<entity_class name="zombieSpiderFeralRadiated" extends="zombieSpiderFeral">
+<!--entity_class name="zombieSpiderFeralRadiated" extends="zombieSpiderFeral">
 	<property name="HandItem" value="handZombie02Feral"/>
 	<property name="MaxHealth" value="450"/>
 	<property name="ExperienceGain" value="2509"/>
@@ -809,7 +808,7 @@
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	<property name="Buffs" value="zombieRadiatedBuff40"/>
-</entity_class>
+</entity_class-->
 
 <entity_class name="zombieBurnt" extends="zombieTemplateMale">
 	<property name="Mesh" value="Zombies/ZombieStandardBurntRagdoll"/>
@@ -977,7 +976,7 @@
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
-<entity_class name="zombieFatCopFeralRadiated" extends="zombieFatCopFeral">
+<!--entity_class name="zombieFatCopFeralRadiated" extends="zombieFatCopFeral">
 	<property name="MaxHealth" value="750"/>
 	<property name="ExperienceGain" value="6042"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
@@ -987,7 +986,7 @@
 	<property name="Explosion.BlockDamage" value="750"/>
 	<property name="Explosion.EntityDamage" value="250"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
-</entity_class>
+</entity_class-->
 
 <entity_class name="zombieMaleHazmat" extends="zombieBoe">
 	<property name="Mesh" value="Zombies/zombieStandardHazmatRagdoll"/>
